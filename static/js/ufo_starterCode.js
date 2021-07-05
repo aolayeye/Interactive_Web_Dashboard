@@ -70,9 +70,11 @@ function updateFilters() {
 
     Object.entries(filters).forEach(([filterId, elementValue]) => {
       if (filters[filterId] != "") {
-        filteredData = filteredData.filter(entry => entry.filters[filterId] === elementValue);
+        filteredData = filteredData.filter(entry => entry.datetime === elementValue);
+        
 
     }
+    
 
     // for (var [key,value] of Object.entries(filters)) {
     //   if (value != "") {
