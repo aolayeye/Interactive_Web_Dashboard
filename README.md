@@ -39,7 +39,6 @@ The user amy enter multiple search parameters at the same time and get the desir
 
 A "Clear Filters" button is implemented as shown below:
 ##### When the user clciks the Clear Filters button, all search parameters are cleared and the data is reset
-
 ![Clear_Filters](https://user-images.githubusercontent.com/67847583/124837134-e4d98780-df49-11eb-965e-76c2ab76a177.png)
 
 ##### Page with Cleared Filters: The Clear Filters button clears all filters and resets the data.
