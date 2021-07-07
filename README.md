@@ -6,10 +6,10 @@ We start by building a table to hold and display the UFO data from a JavaScript 
 
 ## Control Flow
 1. Implement a folder structure
-    - Create the index.html file
-    - Create the index.html file
-    - Create a subfolder for images.
-    - Create a subfolder to hold JavaScript.
+   -  Create the index.html file
+   -  Create the index.html file
+   -  Create a subfolder for images.
+   -  Create a subfolder to hold JavaScript.
 2. Create a storyboard to show conceptually what the final webpage will look like
 3. Align the code to the storyboard
 4. Convert the array in the data.js file to an HTML table by looping using ForEach and appending the data rows using Object.values
