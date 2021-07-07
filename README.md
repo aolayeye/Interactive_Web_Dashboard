@@ -25,13 +25,13 @@ A user may filter the UFO sightings data on one or multiple filters. A filter se
 ##### Filter on a single level
 Here the user enters only one search parameter as shown in the image.
 
-![One_Filter_Search](https://user-images.githubusercontent.com/67847583/124824278-c7032700-df37-11eb-8ef0-5935ea518724.png)
+![Single_Filter_Search](https://user-images.githubusercontent.com/67847583/124837078-cd9a9a00-df49-11eb-89c2-4e96e3c5fd0d.png)
 
 ##### Filter on multiple levels
 The user amy enter multiple search parameters at the same time and get the desired results.
 
-![Multiple_Filter_Search](https://user-images.githubusercontent.com/67847583/124824442-fd40a680-df37-11eb-9fda-00e6e8ca4c3b.png)
-![Multiple_Filter_Search_](https://user-images.githubusercontent.com/67847583/124824462-03368780-df38-11eb-8e9f-318bec3ae9a8.png)
+![Multiple_Filters_Search](https://user-images.githubusercontent.com/67847583/124837095-d7240200-df49-11eb-9b1f-4c68e5c74456.png)
+![Multiple_Filters_Search_](https://user-images.githubusercontent.com/67847583/124837107-d9865c00-df49-11eb-87e5-f437c83a4300.png)
 
 
 ## Summary
@@ -40,9 +40,9 @@ The user amy enter multiple search parameters at the same time and get the desir
 A "Clear Filters" button is implemented as shown below:
 ##### When the user clciks the Clear Filters button, all search parameters are cleared and the data is reset
 
-![Clear_Filters](https://user-images.githubusercontent.com/67847583/124826258-3c6ff700-df3a-11eb-8245-b26e51b49f22.png)
+![Clear_Filters](https://user-images.githubusercontent.com/67847583/124837134-e4d98780-df49-11eb-965e-76c2ab76a177.png)
 
 ##### Page with Cleared Filters: The Clear Filters button clears all filters and resets the data.
-![Page_with_Cleared_Filters](https://user-images.githubusercontent.com/67847583/124833503-e56f1f80-df43-11eb-9c90-59864472a18f.png)
+![Page_with_Cleared_Filters](https://user-images.githubusercontent.com/67847583/124837157-ec992c00-df49-11eb-9c45-fba5d5075ba5.png)
 
 2. Another is the how the search is implemented to return only exact matches. In a scenario where the user knows the only part of the name of a city for example, no result will be returned. If a city name was "el cajon" for example entering only "cajon" will not return any results. If we implemented JavaScript's indexOf method, we would be to match alot more nuanced user searches and return results when users enters "cajon" instead of "el cajon".
