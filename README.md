@@ -19,7 +19,7 @@ We start by building a table to hold and display the UFO data from a JavaScript 
 6. Build the Webpage and add the data.js, app.js, and the D3.js library
 
 ## Results
-##### Using the Search Criteria
+### Using the Search Criteria
 A user may filter the UFO sightings data on one or multiple filters. A filter search panel with five filter options is available to the left of the table data.
 
 ##### Filter on a single level
