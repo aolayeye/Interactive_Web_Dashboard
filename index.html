@@ -16,8 +16,7 @@
       crossorigin="anonymous"
     />
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link rel="stylesheet" href="static/css/style.css">
-    
+    <link rel="stylesheet" href="static/css/style.css"> 
 </head>
 <body class="bg-dark">
     <div class="wrapper">
@@ -43,32 +42,34 @@
                     <div class="row">
                         <div class="col-md-3">
                             <form class="bg-dark">
-                                <p>Filter Search</p>
+                                <p style="font-size: 25px;" >Filter Search</p>
                                 <ul class="list-group bg-dark">
                                     <li class="list-group-item bg-dark">
-                                        <label for="date">Enter Date</label>
+                                        <label for="date">Enter Date</label><br />
                                         <input type="text" placeholder="1/10/2010" id="datetime"/>
                                     </li>
                                     
                                     <li class="list-group-item bg-dark">
-                                        <label for="city">Enter a City</label>
+                                        <label for="city">Enter a City</label><br />
                                         <input type="text" placeholder="roswell" id="city">
                                     </li>
                                     <li class="list-group-item bg-dark">
-                                        <label for="state">Enter a State</label>
+                                        <label for="state">Enter a State</label><br />
                                         <input type="text" placeholder="ca" id="state">
                                     </li>
                                     <li class="list-group-item bg-dark">
-                                        <label for="Country">Enter a Country</label>
+                                        <label for="Country">Enter a Country</label><br />
                                         <input type="text" placeholder="us" id="country">
                                     </li>
                                     <li class="list-group-item bg-dark">
-                                        <label for="Shape">Enter a Shape</label>
-                                        <input type="text" placeholder="crcle" id="shape">
+                                        <label for="Shape">Enter a Shape</label><br />
+                                        <input type="text" placeholder="circle" id="shape">
                                     </li>
-                                    <!-- <li class="list-group-item bg-dark">
-                                        <button id="filter-btn" type="button" class="btn btn-dark" >Clear Table</button>
-                                    </li> -->
+                                    <li class="list-group-item bg-dark">
+                                        <button id="clear-btn" type="button" class="btn btn-dark">
+                                            Clear Filters
+                                        </button>
+                                    </li>
                                 </ul>
                             </form>
 
@@ -76,19 +77,29 @@
                         <div class="col-md-9">
                             <table class="table table-striped">
                                 <thead>
-                                    <tbody>
-                                        <tr>
-                                            <th>Date</th>
-                                            <th>City</th>
-                                            <th>State</th>
-                                            <th>Country</th>
-                                            <th>Shape</th>
-                                            <th>Duration</th>
-                                            <th>Comments</th>
-                                        </tr>
-
-                                    </tbody>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>City</th>
+                                        <th>State</th>
+                                        <th>Country</th>
+                                        <th>Shape</th>
+                                        <th>Duration</th>
+                                        <th>Comments</th>
+                                    </tr>
+                                    
                                 </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>City</th>
+                                        <th>State</th>
+                                        <th>Country</th>
+                                        <th>Shape</th>
+                                        <th>Duration</th>
+                                        <th>Comments</th>
+                                    </tr>
+
+                                </tbody>
                             
                             </table>
                         </div>
@@ -101,6 +112,6 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script type="text/javascript" src="./static/js/data.js"></script>
-    <script type="text/javascript" src="./static/js/ufo_starterCode.js"></script>
+    <script type="text/javascript" src="./static/js/app.js"></script>
 </body>
 </html>
