@@ -42,4 +42,4 @@ A "Clear Filters" button is implemented as shown below:
 
 ![Clear_Filters](https://user-images.githubusercontent.com/67847583/124826258-3c6ff700-df3a-11eb-8245-b26e51b49f22.png)
 
-2. Another is the how the search is implemented to return only exact matches. In a scenario where the user knows the only part of the name of a city for example, no result will be returned. If a city name was "el cajon" for example entering only "cajon" will not return any results. If we relaxed our strict equality check a little, we amy be able to match alot nuanced user searches and return results when users enters "cajon" instead of "el cajon".
+2. Another is the how the search is implemented to return only exact matches. In a scenario where the user knows the only part of the name of a city for example, no result will be returned. If a city name was "el cajon" for example entering only "cajon" will not return any results. If we relaxed our strict equality check a little (== instead of ===), we amy be able to match alot nuanced user searches and return results when users enters "cajon" instead of "el cajon".
