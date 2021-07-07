@@ -1,8 +1,8 @@
 # UFOs
 # Overview
-This project is about using Javascript to create dynamic web content. We would focus on creating a dashboard that accepts user input and visually adjusts to reflect the user interaction. We would build the dynamic dashboard by inserting JavaScript into an HTML page. We would also draw on CSS and Bootstrap to build and style the HTML page and explore some chrome Dev tools to test code as the devlopment gets along.
+This project is about using Javascript to create dynamic web content. We would focus on creating a dashboard that accepts user input and visually adjusts to reflect the user interaction. We would build the dynamic dashboard by inserting JavaScript into an HTML page. We would also draw on CSS and Bootstrap to develop and style the HTML page and explore some chrome Dev tools to test code as the development gets along.
 
-We start by building a table to hold and display the UFO data from a JavaScript file, then add filters to the table which lets users refine their search on multiple levels. For location-based data for example a user could choose to view results located in certain countries or even cities. The table will be inserted into and visually displayed by an HTML page. We also includ an attention garbbing header, article summary, and brief article. In the end, we will have built a presentation that is both visually appealing and interactive
+We start by building a table to hold and display the UFO data from a JavaScript file, then add filters to the table, which lets users refine their search on multiple levels. For location-based data, for example, a user could choose to view results located in certain countries or even cities. The table will be inserted into and visually displayed by an HTML page. We also include an attention-grabbing header, article summary, and brief article. In the end, we will have built a presentation that is both visually appealing and interactive.
 
 ## Control Flow
 1. Implement a folder structure
@@ -35,7 +35,7 @@ The user amy enter multiple search parameters at the same time and get the desir
 
 
 ## Summary
-1. A drawback of this implementation is the absence of a clear filters button. Everytime the user does a multi-level search, the page will have to refreshed to clear all filters. With a clear filters button, all previously entered search parameters are cleared at the click of a button.
+1.A drawback of this implementation is the absence of a clear filters button. Everytime the user does a multi-level search, the page will have to refreshed to clear all filters. With a clear filters button, all previously entered search parameters are cleared at the click of a button.
 
 A "Clear Filters" button is implemented as shown below:
 ##### When the user clciks the Clear Filters button, all search parameters are cleared and the data is reset
@@ -45,4 +45,4 @@ A "Clear Filters" button is implemented as shown below:
 ##### Page with Cleared Filters: The Clear Filters button clears all filters and resets the data.
 ![Page_with_Cleared_Filters](https://user-images.githubusercontent.com/67847583/124837157-ec992c00-df49-11eb-9c45-fba5d5075ba5.png)
 
-2. Another is the how the search is implemented to return only exact matches. In a scenario where the user knows the only part of the name of a city for example, no result will be returned. If a city name was "el cajon" for example entering only "cajon" will not return any results. If we implemented JavaScript's indexOf method, we would be to match alot more nuanced user searches and return results when users enters "cajon" instead of "el cajon".
+2.Another drawback is: how the search returns only exact matches. In a scenario where the user knows only part of the name of a city, for example, our search will not return any results. If a city name was "el cajon," entering only "cajon" will not return any results. If we implemented JavaScript's indexOf method, we would match more nuanced user searches and return results when users enter "cajon" instead of "el cajon."
