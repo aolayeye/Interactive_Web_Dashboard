@@ -35,7 +35,9 @@ The user amy enter multiple search parameters at the same time and get the desir
 
 
 ## Summary
+#### Drawback 1
 1. A drawback of this implementation is the absence of a clear filters button. Everytime the user does a multi-level search, the page will have to refreshed to clear all filters. 
+
 #### Recommendation 
 With a clear filters button, all previously entered search parameters are cleared at the click of a button.
 
@@ -46,4 +48,5 @@ A "Clear Filters" button is implemented as shown below:
 ##### Page with Cleared Filters: The Clear Filters button clears all filters and resets the data.
 ![Page_with_Cleared_Filters](https://user-images.githubusercontent.com/67847583/124837157-ec992c00-df49-11eb-9c45-fba5d5075ba5.png)
 
+#### Drawback 2
 2. Another drawback is: how the search returns only exact matches. In a scenario where the user knows only part of the name of a city, for example, our search will not return any results. If a city name was "el cajon," entering only "cajon" will not return any results. If we implemented JavaScript's indexOf method, we would match more nuanced user searches and return results when users enter "cajon" instead of "el cajon."
