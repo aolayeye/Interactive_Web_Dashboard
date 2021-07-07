@@ -36,7 +36,7 @@ The user amy enter multiple search parameters at the same time and get the desir
 
 ## Summary
 1. A drawback of this implementation is the absence of a clear filters button. Everytime the user does a multi-level search, the page will have to refreshed to clear all filters. 
--  Recommendation: With a clear filters button, all previously entered search parameters are cleared at the click of a button.
+- Recommendation: With a clear filters button, all previously entered search parameters are cleared at the click of a button.
 
 A "Clear Filters" button is implemented as shown below:
 ##### When the user clciks the Clear Filters button, all search parameters are cleared and the data is reset
