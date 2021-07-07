@@ -6,7 +6,7 @@ We start by building a table to hold and display the UFO data from a JavaScript 
 
 ## Control Flow
 1. Implement a folder structure
-- Create the index.html file
+   - Create the index.html file
    
   -   Create the index.html file
    -  Create the index.html file
