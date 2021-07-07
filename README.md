@@ -17,3 +17,24 @@ We start by building a table to hold and display the UFO data from a JavaScript 
       - Both data.js and app.js will reside in our JavaScript subfolder
 5. Implement a function to dynamically filter the UFO sightings data on multiple criteria.
 6. Build the Webpage and add the data.js, app.js, and the D3.js library
+
+## Results
+##### Using the Search Criteria
+A user may filter the UFO sightings data on one or multiple filters. A filter search panel with five filter options is available to the left of the table data.
+
+##### Filter on a single level
+Here the user enters only one search parameter as shown in the image.
+
+![One_Filter_Search](https://user-images.githubusercontent.com/67847583/124824278-c7032700-df37-11eb-8ef0-5935ea518724.png)
+
+##### Filter on multiple levels
+The user amy enter multiple search parameters at the same time and get the desired results.
+
+![Multiple_Filter_Search](https://user-images.githubusercontent.com/67847583/124824442-fd40a680-df37-11eb-9fda-00e6e8ca4c3b.png)
+![Multiple_Filter_Search_](https://user-images.githubusercontent.com/67847583/124824462-03368780-df38-11eb-8e9f-318bec3ae9a8.png)
+
+
+## Summary
+1. A drawback of this implementation is the absence of a clear filters button. Everytime the user does a multi-level search, the page will have to refreshed to clear all filters. With a clear filters button, all previously entered search parameters are cleared at the click of a button.
+
+2. Another is the how the search is implemented to return only exact matches. In a scenario where the user knows the only part of the name of a city for example, no result will be returned. If a city name was "el cajon" for example entering only "cajon" will not return any results. If we relaxed our strict equality check a little, we amy be able to match alot nuamced user searches and return results when users enters "cajon" instead of "el cajon"
